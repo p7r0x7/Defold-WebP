@@ -320,7 +320,7 @@
     :node-type image/ImageNode
     :load-fn load-webp-image
     :stateless? true
-    :view-types [:default]))
+    :view-types [:scene :default]))
 
 (defn- load-plugin [workspace]
   (ensure-webp-imageio!)
