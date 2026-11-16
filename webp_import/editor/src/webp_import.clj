@@ -27,7 +27,8 @@
   resource/Resource
   (children [_this] nil)
   (ext [_this] webp-ext)
-  (resource-type [this] (resource/resource-type source-resource))
+  (lookup-resource-type [_this editable->type-ext->resource-type]
+    (resource/lookup-resource-type source-resource editable->type-ext->resource-type))
   (source-type [_this] :file)
   (exists? [_this] true)
   (read-only? [_this] true)
