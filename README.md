@@ -4,7 +4,7 @@
 > Fine. I made them get along. D-don't misunderstand, I only did it because the
 > texture pipeline looked lonely.
 
-**Defold WebP Import** is a Defold `1.14.1+` library extension that lets the
+**Defold WebP Import** is a Defold `1.14.0+` library extension that lets the
 editor and bob use `.webp` as a source image format.
 
 It supports static WebP, alpha WebP, lossy WebP, lossless WebP, and animated
@@ -18,7 +18,7 @@ The dependency exposes these library folders through `game.project`:
 ```ini
 [library]
 include_dirs = webp_import opacity
-defold_min_version = 1.14.1
+defold_min_version = 1.14.0
 ```
 
 - `webp_import/` - editor and bob WebP import support.
